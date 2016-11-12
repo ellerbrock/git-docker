@@ -1,5 +1,7 @@
 # git base on Alpine Linux
 
+[![Docker Automated Build](https://img.shields.io/docker/automated/frapsoft/git.svg)](https://hub.docker.com/r/frapsoft/git/) [![Docker Pulls](https://img.shields.io/docker/pulls/frapsoft/git.svg)](https://hub.docker.com/r/frapsoft/git/) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg)](https://github.com/ellerbrock/open-source-badges/) [![Gitter Chat](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
+
 - Docker Hub: [frapsoft/git](https://hub.docker.com/r/frapsoft/git/)
 - Dockerfile: <https://github.com/ellerbrock/git-docker/blob/master/Dockerfile>
 - Base Image: [alpine](https://hub.docker.com/_/alpine/)
