@@ -1,13 +1,11 @@
 FROM alpine
 
-MAINTAINER Maik Ellerbrock (github.com/ellerbrock)
-
-ENV CONTAINER_VERSION 0.0.1
-ENV CONTAINER_NAME frapsoft/git
-ENV CONTAINER_REPO https://github.com/ellerbrock/git-docker
+MAINTAINER Maik Ellerbrock (https://github.com/ellerbrock)
 
 RUN apk update && \
-    apk add --no-cache git
+    apk add --no-cache git && \
+    rm -f /tmp/* /etc/apk/cache/*
 
 ENTRYPOINT ["git"]
+
 CMD ["--version"]
